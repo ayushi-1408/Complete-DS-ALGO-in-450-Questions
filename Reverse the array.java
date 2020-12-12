@@ -22,3 +22,24 @@ public class Practice2 {
 	}
 
 }
+
+// If Characters Array
+
+package practice;
+
+import java.util.Scanner;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+		 Scanner s = new Scanner(System.in);
+	      System.out.println("First add some characters without spaces and pressing enter");
+	      char[] a = s.next().toCharArray();
+	      System.out.println("Elements = ");
+	      for (int i = 0; i < a.length; i++) 
+	         System.out.println(a[i]);
+	
+	}
+
+}
+
